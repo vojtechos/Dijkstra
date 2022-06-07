@@ -1,3 +1,3 @@
 # dijkstra
 
-Jsem kokot co neumí pull requesty <3 
+Jsem kokot co neumí pull requesty a commity <3 
