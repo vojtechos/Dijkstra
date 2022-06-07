@@ -6,6 +6,7 @@ import java.io.IOException;
 
 public class UI {
 
+    // Původní myšlenka udělat vytáření souboru přes jinou classu, ale nakonec jsem to udělal v UI.
     private Scanner scanner = new Scanner(System.in);
 
     public void start() {
@@ -57,7 +58,7 @@ public class UI {
         // promiň Lukáši :( v Šalandě si zpravíš náladu <3
 
         try {
-            File file = new File("E:\\demo.txt"); //absolutní cesta = problém, nevím jak změnit, aby to bralo filu s tohoto projektu, ale asi to nebude těžké
+            File file = new File("DijkstraAppInformation.txt"); //absolutní cesta = problém, nevím jak změnit, aby to bralo filu s tohoto projektu, ale asi to nebude těžké
             if(file.delete()) {
                 System.out.println(file.getName() + " deleted");
             } else {
