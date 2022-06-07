@@ -1,1 +1,1 @@
-# dijkstr
+# dijkstra
