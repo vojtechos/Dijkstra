@@ -10,7 +10,7 @@ public class UI {
 
     public void start() {
         System.out.println();
-        System.out.println("Welcome! This is application that is using dijkstra's algorithm to find the shortest path.\nEnjoy your time using this app.");
+        System.out.println("Welcome! This is application that is using dijkstra's algorithm to find the shortest path between nodes.\nEnjoy your time using this app.");
         System.out.println();
         menu();
     }
